@@ -38,13 +38,13 @@ Grammar (CFG):
 <digit> ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
 ```
 
-#### Example Code:
+Example Code:
 
 ```bash
 a=+2+25;%a!
 ```
 
-#### Tokens:
+Tokens:
 
 ```bash
 Each token in tinyL is a single character, such as +, -, *, &, |, or variables like a and digits like 2.
