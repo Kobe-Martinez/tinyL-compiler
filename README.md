@@ -68,12 +68,14 @@ Each token in tinyL is a single character, such as +, -, *, &, |, or variables l
 
 Compiling tinyL Code:
 
-1. Ensure you have the tinyL source code file (e.g., example.tinyL).
+1. Ensure you have the tinyL source code file (e.g., example.tinyL)
+
 2. Compile and run the program:
 ```bash
 ./compiler example.tinyL
 ```
-3. The compiled output will be written to tinyL.out.
+
+3. The compiled output will be written to tinyL.out
 
 Input Example:
 
@@ -82,7 +84,7 @@ Given the following tinyL code:
 a=+2*3b;%a!
 ```
 
-The compiler processes it and outputs the intermediate instructions in tinyL.out.
+The compiler processes it and outputs the intermediate instructions in tinyL.out
 
 
 ## Code Structure
@@ -91,16 +93,17 @@ The primary files in this project include:
 
 ```bash
 1. Parsing Functions: Recursive functions parse different components of tinyL:
+    * program(): Parses the entire program
+    * stmtlist(), morestmts(): Handle lists of statements
+    * stmt(): Processes a single statement
+    * assign(), read(), print(): Handle assignment, input, and output statements
+    * expr(): Parses and evaluates arithmetic expressions
 
-    * program(): Parses the entire program.
-    * stmtlist(), morestmts(): Handle lists of statements.
-    * stmt(): Processes a single statement.
-    * assign(), read(), print(): Handle assignment, input, and output statements.
-    * expr(): Parses and evaluates arithmetic expressions.
 2. Utilities:
-    * next_token(): Advances the input token.
-    * next_register(): Allocates a new virtual register.
-    * CodeGen(): Generates and writes intermediate instructions.
+    * next_token(): Advances the input token
+    * next_register(): Allocates a new virtual register
+    * CodeGen(): Generates and writes intermediate instructions
+
 3. Output Instructions:
     * Uses InstrUtils.h and Instr.h for defining and printing instructions like LOAD, STORE, ADD, SUB, etc.
 ```
@@ -109,10 +112,13 @@ The primary files in this project include:
 ## Requirements
 
 ```bash
-- Compiler: C compiler such as GCC or any C compiler supporting standard C libraries.
-- Input File: A valid tinyL program.
-- Basic understanding of compiler design concepts.
-- Familiarity with tinyL language syntax (see examples in the code).
+- Compiler: C compiler such as GCC or any C compiler supporting standard C libraries
+
+- Input File: A valid tinyL program
+
+- Basic understanding of compiler design concepts
+
+- Familiarity with tinyL language syntax (see examples in the code)
 ```
 
 
@@ -138,10 +144,13 @@ The primary files in this project include:
 ## File Output
 
 ```bash
-- Compiler: C compiler such as GCC or any C compiler supporting standard C libraries.
-- Input File: A valid tinyL program.
-- Basic understanding of compiler design concepts.
-- Familiarity with tinyL language syntax (see examples in the code).
+- Compiler: C compiler such as GCC or any C compiler supporting standard C libraries
+
+- Input File: A valid tinyL program
+
+- Basic understanding of compiler design concepts
+
+- Familiarity with tinyL language syntax (see examples in the code)
 ```
  
 
@@ -158,7 +167,9 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Important Note
 
 ```bash
-- The program requires tokens to strictly follow the tinyL grammar. Any deviation will result in an error.
-- The compiler generates error messages for invalid tokens or incorrect syntax.
-- The recursive descent parser ensures a structured and modular approach to parsing tinyL programs.
+- The program requires tokens to strictly follow the tinyL grammar. Any deviation will result in an error
+
+- The compiler generates error messages for invalid tokens or incorrect syntax
+
+- The recursive descent parser ensures a structured and modular approach to parsing tinyL programs
 ```
