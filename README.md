@@ -66,20 +66,22 @@ Each token in tinyL is a single character, such as +, -, *, &, |, or variables l
 
 ## Usage
 
-Compiling tinyL Code:
+##### Compiling tinyL Code:
 
 1. Ensure you have the tinyL source code file (e.g., example.tinyL)
 
 2. Compile and run the program:
+   
 ```bash
 ./compiler example.tinyL
 ```
 
 3. The compiled output will be written to tinyL.out
 
-Input Example:
+##### Input Example:
 
 Given the following tinyL code:
+
 ```bash
 a=+2*3b;%a!
 ```
