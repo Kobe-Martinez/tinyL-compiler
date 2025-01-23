@@ -129,7 +129,7 @@ The primary files in this project include:
 
 	```bash
 	git clone https://github.com/Kobe-Martinez/tinyL-compiler.git
-  cd tinyL-compiler
+ 	cd tinyL-compiler
 	```
 
 
