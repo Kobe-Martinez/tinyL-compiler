@@ -54,10 +54,13 @@ Each token in tinyL is a single character, such as +, -, *, &, |, or variables l
 ## Features
 
 ```bash
-- Arithmetic Expressions: Supports addition (+), subtraction (-), multiplication (*), bitwise AND (&), and bitwise OR (|).
-- Read/Write Operations: Allows reading from input using ? and writing to output using %.
-- Variable Support: Limited to a through f.
-- Digit Support: Includes digits 0 through 9.
+- Arithmetic Expressions: Supports addition (+), subtraction (-), multiplication (*), bitwise AND (&), and bitwise OR (|)
+
+- Read/Write Operations: Allows reading from input using ? and writing to output using %
+
+- Variable Support: Limited to a through f
+
+- Digit Support: Includes digits 0 through 9
 ```
 
 
