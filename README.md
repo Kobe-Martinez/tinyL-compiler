@@ -13,7 +13,6 @@ A recursive-descent parser and code generator for the tinyL language, a compact 
 - [Usage](#usage)
 - [Code Structure](#code-structure)
 - [Requirements](#requirements)
-- [Installation](#installation)
 - [File Output](#file-output)
 - [Contributing](#contributing)
 - [License](#license)
@@ -122,25 +121,6 @@ The primary files in this project include:
 
 - Familiarity with tinyL language syntax (see examples in the code)
 ```
-
-
-## Installation
-
-1. **Clone the repository:**
-   Open your terminal or command prompt and run:
-
-	```bash
-	git clone https://github.com/Kobe-Martinez/tinyL-compiler.git
- 	cd tinyL-compiler
-	```
-
-
-2. **Compile the source code:** 
-   Run this one too:
-
-	```bash
-	gcc tinyL-compiler.c -o tinyL-compiler
-	``` 
 
 
 ## File Output
