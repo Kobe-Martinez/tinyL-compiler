@@ -136,11 +136,6 @@ The primary files in this project include:
 ```
  
 
-## Contributing
-
-Contributions are welcome! If you have suggestions for improvements or features, feel free to fork the repository and submit a pull request.
-
-
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
