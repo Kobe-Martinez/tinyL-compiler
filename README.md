@@ -3,7 +3,7 @@
 ## Overview
 
 
-This repository contains a recursive-descent parser and code generator for the tinyL language, a simple programming language defined by its context-free grammar (CFG). The project showcases key concepts in parsing, tokenization, and compiler construction. 
+A recursive-descent parser and code generator for the tinyL language, a compact programming language defined by its context-free grammar (CFG). This project demonstrates fundamental concepts in compiler design, including parsing, tokenization, and code generation. 
 
 
 ## Table of Contents
