@@ -47,7 +47,7 @@ a=+2+25;%a!
 Tokens:
 
 ```bash
-Each token in tinyL is a single character, such as +, -, *, &, |, or variables like a and digits like 2.
+Each token in tinyL is a single character, such as +, -, *, &, |, or variables like a and digits like 2
 ```
 
 
