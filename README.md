@@ -94,18 +94,27 @@ The primary files in this project include:
 
 ```bash
 1. Parsing Functions: Recursive functions parse different components of tinyL:
+
     * program(): Parses the entire program
+
     * stmtlist(), morestmts(): Handle lists of statements
+
     * stmt(): Processes a single statement
+
     * assign(), read(), print(): Handle assignment, input, and output statements
+
     * expr(): Parses and evaluates arithmetic expressions
 
 2. Utilities:
+
     * next_token(): Advances the input token
+
     * next_register(): Allocates a new virtual register
+
     * CodeGen(): Generates and writes intermediate instructions
 
 3. Output Instructions:
+
     * Uses InstrUtils.h and Instr.h for defining and printing instructions like LOAD, STORE, ADD, SUB, etc.
 ```
 
